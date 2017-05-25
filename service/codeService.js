@@ -51,7 +51,8 @@ module.exports={
     },
     update:function(req,res,next){
         var param=req.body;
-        console.log('param='+param.ID);
+       //  console.log('req.body='+req.body);
+       // console.log('param='+param.ID);
         if(param.ID==null){
             jsonWrite(res,undefined);
             return;
