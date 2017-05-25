@@ -1,0 +1,35 @@
+extends layout
+block content
+    h1 更新信息
+    form(method='post',action='/codeMst/update')
+        div.form-row
+                label
+                        span ID:
+                        input(type='text',name='id')
+        div.form-row
+                label
+                        span CODE_ID
+                        input(type='text',name='CODE_ID')
+        div.form-row
+                label
+                        span CODE_NAME
+                        input(type='text',name='CODE_NAME')
+        div.form-row
+                label
+                        span CODE_TYPE
+                        input(type='text',name='CODE_TYPE')
+           div.form-row
+                label
+                        span CODE_VALUE1
+                        input(type='text',name='CODE_VALUE1')
+           div.form-row
+                label
+                        span CODE_VALUE2
+                        input(type='text',name='CODE_VALUE2')
+           div.form-row
+                label
+                        span CODE_VALUE3
+                        input(type='text',name='CODE_VALUE3')
+        div.form-row
+                        input(type='submit')
+
