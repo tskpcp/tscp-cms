@@ -1,9 +1,9 @@
-var CMS_ADMIN_MST_SQL={
-    insert:'INSERT INTO CMS_ADMIN_MST (LOGIN_ID,PASSWORD,USER_NAME,POSITION,PERMISSIONS,MARK,CMP_TYPE) VALUES(?,?,?,?,?,?,?)',
-    queryAll:'SELECT * FROM CMS_ADMIN_MST',
-    getById:'SELECT * FROM CMS_ADMIN_MST WHERE ID=?',
-    updateById:'UPDATE CMS_ADMIN_MST SET LOGIN_ID=?,PASSWORD=?,USER_NAME=?,POSITION=?,PERMISSIONS=?,MARK=?,CMP_TYPE=? WHERE ID=?',
-    deleteById:'DELETE FROM CMS_ADMIN_MST WHERE ID=?',
+var cms_admin_mst_sql={
+    insert:'INSERT INTO cms_admin_mst (LOGIN_ID,PASSWORD,USER_NAME,POSITION,PERMISSIONS,MARK,CMP_TYPE) VALUES(?,?,?,?,?,?,?)',
+    queryAll:'SELECT * FROM cms_admin_mst',
+    getById:'SELECT * FROM cms_admin_mst WHERE ID=?',
+    updateById:'UPDATE cms_admin_mst SET LOGIN_ID=?,PASSWORD=?,USER_NAME=?,POSITION=?,PERMISSIONS=?,MARK=?,CMP_TYPE=? WHERE ID=?',
+    deleteById:'DELETE FROM cms_admin_mst WHERE ID=?',
 }
-module.exports=CMS_ADMIN_MST_SQL;
+module.exports=cms_admin_mst_sql;
 
